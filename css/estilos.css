@@ -5,7 +5,18 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
+
 }
+#cabecera
+{
+    background: #33a;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,.5);
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    padding: 0.5em;
+}
+
 #container {
     width: 70%;
     padding: 1em;
@@ -14,6 +25,10 @@ body{
     margin: 0 auto;
 }
 
-#container {
+#container h1 {
     font-size: 20px;
+}
+
+#post{
+    padding: 1em ;
 }
